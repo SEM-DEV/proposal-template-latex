@@ -1,0 +1,215 @@
+\documentclass[12pt]{report}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{mathtools}
+\usepackage{pdflscape,multicol,multirow}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{apacite}
+\pagestyle{plain}
+\usepackage{multirow}
+\usepackage[table]{xcolor}
+\usepackage{caption}
+\usepackage{multirow}
+\newtheorem{definition}{Definition}[section]
+\usepackage[toc,page]{appendix}
+%\usepackage[usenames, dvipsnames]{color}
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage{adjustbox}
+\usepackage {hyperref}
+\usepackage{titlesec}
+\usepackage{graphicx}
+\usepackage{lipsum}
+\usepackage{fixmath}
+\numberwithin{equation}{section}
+\renewcommand{\chaptername}{CHAPTER}{\Large}
+\large \titleformat{\chapter}[display]
+{\vspace{0mm}\filcenter}
+{\filcenter \LARGE\bfseries
+	\chaptertitlename\ \justwords{\thechapter}}
+{1ex}
+{\vspace*{0ex}\filcenter\Huge\bfseries}
+
+\def\justwords#1{\ifcase#1 \or ONE\or TWO\or THREE\or FOUR \or FIVE\fi}
+\usepackage{graphicx}
+\usepackage{setspace}
+\usepackage{nomencl}
+\usepackage{enumerate}
+\usepackage{adjustbox}
+\usepackage{enumitem}
+\usepackage{pdfpages}
+\makenomenclature
+\usepackage[authoryear]{natbib}
+\renewcommand{\bibname}{REFERENCES}
+\renewcommand{\refname}{REFERENCES}
+\renewcommand{\bibsection}{\section*{\hspace{4cm}REFERENCES}}
+\renewcommand{\contentsname}{\centering TABLE OF CONTENTS}
+\renewcommand{\listtablename}{LIST OF TABLES}
+\usepackage{geometry}
+\geometry{a4paper, total={210mm,297mm}, left=40mm, right=25mm, top=23mm, bottom=25mm}
+\providecommand{\printnomenclature}{\printglossary}
+\providecommand{\makenomenclature}{\makeglossary}
+\usepackage{nomencl}
+\usepackage{amssymb}
+\newtheorem{thm}{Theorem}[section]
+\newtheorem{theorem}{Theorem}
+\makenomenclature
+\renewcommand{\baselinestretch}{1.5}
+\makeatletter
+\makeatother
+\setlength\parindent{0pt}
+\title{}
+\author{}
+\begin{document}
+	\begin{titlepage}
+		\includegraphics[scale=0.7]{logo.jpg}
+		\begin{center}
+			%\textbf{PAN AFRICAN UNIVERSITY}	\\
+			%	\textbf{INSTITUTE FOR BASIC SCIENCES, TECHNOLOGY AND INNOVATION}
+			
+		\end{center}
+		\begin{center}
+			{\large title\par} 
+			\vspace{5cm}
+			\begin{center}
+				{\large Name}
+				\par\end{center}{\large \par}
+		\end{center}
+		\par	
+		\begin{center}
+			\vspace{2cm}
+			\par\end{center}	
+		
+		\begin{center}A Research proposal submitted to Pan African University, Institute for Basic Science, Technology and Innovation in Partial fulfillment of the requirement for the award of Doctor of Philosophy Mathematics (Statistics Option).%\end{center}
+		\end{center}	
+		\vspace{1.5cm}
+		\begin{center}
+			2021
+			\end {center}
+		\end{titlepage}
+		\begin{center}
+			\noindent\pagenumbering{roman}
+		\end{center}
+		\section*{\hspace{5cm}DECLARATION} 
+		%\addcontentsline{toc}{section}{DECLARATION}
+		\addcontentsline{toc}{chapter}{DECLARATION}
+		\noindent This research proposal is my own work and has not been presented
+		elsewhere for a degree award. 
+		
+		\vspace{1cm}
+		
+		\indent %
+		\begin{tabular}{l}
+			Signature...................................................  Date..............................................\tabularnewline \\
+			Name   \tabularnewline \\
+			
+			Reg No \tabularnewline
+		\end{tabular}\\
+		\vspace{1.2cm}
+		
+		
+		%\noindent Declaration by supervisors. \\
+		\vspace{0.5cm}
+		
+		This research proposal has been submitted for examination with our approval as University Supervisors. \vspace{1.5cm}
+		
+		
+		\noindent %
+		\begin{tabular}{l}
+			Signature..................................  Date........................................\tabularnewline \\
+			Prof.   \tabularnewline \\
+			\multicolumn{1}{l}{Affliation}\tabularnewline
+		\end{tabular}
+		
+		\noindent \vspace{1.5cm}
+		
+		\begin{tabular}{l}
+			Signature.................................  Date........................................\tabularnewline \\
+			Prof.   \tabularnewline \\
+			\multicolumn{1}{l}{Affliation}\tabularnewline
+		\end{tabular}
+		\textbf{\pagebreak{}}
+		%\section*{\hspace{4cm}DEDICATION}
+		%\addcontentsline{toc}{section}{DEDICATION}
+		%\addcontentsline{toc}{chapter}{DEDICATION}
+		%To 
+		%\textbf{\pagebreak{}}
+		%\section*{\hspace{4cm}ACKNOWLEDGMENT}
+		%\addcontentsline{toc}{chapter}{ACKNOWLEDGMENT}
+		%	I 
+		
+		
+		\begin{onehalfspace}
+			\pagebreak{} \tableofcontents{}
+		\end{onehalfspace} \newpage
+		\addcontentsline{toc}{chapter}{LIST OF TABLES}
+		\listoftables 
+		\newpage
+		\section*{\hspace{2cm}ABBREVIATIONS AND ACRONYMS}
+		%\addcontentsline{toc}{section}{DEDICATION}
+		\addcontentsline{toc}{chapter}{ABBREVIATIONS AND ACRONYMS}
+		%\begin{tabular}{ccl}
+		%	$i$	&& Sample element \\ 
+		
+		%	$j$	&& Non-sample element \\ 
+		%	$I$  && Indicator function\\
+		%	$MBC$ && Multiplicative Bias Correction\\
+		%	$U$ && Finite population\\
+		%	$UN$ && United Nations\\
+		%	$MSE$ && Mean Squared Error
+		%\end{tabular} 
+	
+		% \addcontentsline{toc}{chapter}{List of Figures}
+		%\listoffigures 
+		\pagebreak
+		\section*{\hspace{5cm} ABSTRACT}
+		
+		%\addcontentsline{toc}{section}{ABSTRACT}
+		\addcontentsline{toc}{chapter}{ABSTRACT}
+		 
+		\newpage
+		\chapter{INTRODUCTION}
+		\pagenumbering{arabic} 
+		\section{Background of the Study}
+	
+		
+		\section{Statement of the Problem}
+	
+		\section{Objectives of the Study}
+		\subsection{General Objective}
+		
+		\subsection{ Specific Objectives}
+	
+		\section{Justification of Study}
+		 
+		\chapter{ LITERATURE REVIEW}
+		type something \cite{Thomas2021} type something \cite{Itam2022}ltype something
+		\nopagebreak
+		\chapter{METHODOLOGY}
+		\section{Introduction}
+		 
+		
+		%\chapter{EMPIRICAL STUDY}
+		%\section{Simulation Study}
+		
+		
+		
+		\newpage
+		%\section*{\hspace{5cm}REFERENCES}
+		\addcontentsline{toc}{chapter}{References}
+		\bibliographystyle{apacite}
+		%\bibliography{} \newpage
+		\chapter*{APPENDIX A}
+		\section*{Workplan}
+		
+		
+		
+		
+		\chapter*{APPENDIX B}
+		\section*{Budget}
+		\newpage
+		%	\section*{\hspace{5cm}REFERENCES}
+		\addcontentsline{toc}{chapter}{References}
+		\bibliographystyle{apacite}
+		\bibliography{ref} 
+	\end{document}

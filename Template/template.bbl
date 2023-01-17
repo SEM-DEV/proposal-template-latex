@@ -1,0 +1,110 @@
+\begin{thebibliography}{}
+
+\bibitem [\protect \citeauthoryear {%
+Itam%
+, Muhammad Mubin Shaikh Ahmad~Fadzil%
+, Syamsir%
+, Zainoodin%
+\BCBL {}\ \BBA {} Beddu%
+}{%
+Itam%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2022}}%
+}]{%
+Itam2022}
+\APACinsertmetastar {%
+Itam2022}%
+\begin{APACrefauthors}%
+Itam, Z.%
+, Muhammad Mubin Shaikh Ahmad~Fadzil, S.%
+, Syamsir, A.%
+, Zainoodin, M.%
+\BCBL {}\ \BBA {} Beddu, S.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2022}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Application of sugarcane ash as an additional
+  cementitious material in concrete} {Application of sugarcane ash as an
+  additional cementitious material in concrete}{\BBCQ}\ [Journal Article].
+\newblock
+\APACjournalVolNumPages{Materials Today: Proceedings}{66}{}{2824-2829}.
+\newblock
+\begin{APACrefDOI} \doi{10.1016/j.matpr.2022.06.523} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Khan%
+\ \protect \BOthers {.}}{%
+Khan%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2022}}%
+}]{%
+Khan2022}
+\APACinsertmetastar {%
+Khan2022}%
+\begin{APACrefauthors}%
+Khan, H.%
+, Baig, A.%
+, Faisal, M.%
+, Khan, A.%
+, Gul, K.%
+, Ali, N.%
+\BDBL {}Bilal, M.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2022}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Exploration of solid waste materials for sustainable
+  manufacturing of cementitious composites} {Exploration of solid waste
+  materials for sustainable manufacturing of cementitious composites}{\BBCQ}\
+  [Journal Article].
+\newblock
+\APACjournalVolNumPages{Environ Sci Pollut Res Int}{29}{57}{86606-86615}.
+\newblock
+\begin{APACrefURL} \url{https://www.ncbi.nlm.nih.gov/pubmed/35799009}
+  \end{APACrefURL}
+\newblock
+\APACrefnote{Khan, Hamayun Baig, Anwar Faisal, Mahtab Khan, Adnan Gul, Kashif
+  Ali, Nauman Ali, Nisar Bilal, Muhammad eng Germany 2022/07/08 Environ Sci
+  Pollut Res Int. 2022 Dec;29(57):86606-86615. doi: 10.1007/s11356-022-21473-7.
+  Epub 2022 Jul 7.}
+\newblock
+\begin{APACrefDOI} \doi{10.1007/s11356-022-21473-7} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Thomas%
+\ \protect \BOthers {.}}{%
+Thomas%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2021}}%
+}]{%
+Thomas2021}
+\APACinsertmetastar {%
+Thomas2021}%
+\begin{APACrefauthors}%
+Thomas, B\BPBI S.%
+, Yang, J.%
+, Bahurudeen, A.%
+, Abdalla, J\BPBI A.%
+, Hawileh, R\BPBI A.%
+, Hamada, H\BPBI M.%
+\BDBL {}Ashish, D\BPBI K.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2021}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Sugarcane bagasse ash as supplementary cementitious
+  material in concrete – a review} {Sugarcane bagasse ash as supplementary
+  cementitious material in concrete – a review}{\BBCQ}\ [Journal Article].
+\newblock
+\APACjournalVolNumPages{Materials Today Sustainability}{15}{}{}.
+\newblock
+\begin{APACrefDOI} \doi{10.1016/j.mtsust.2021.100086} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\end{thebibliography}
